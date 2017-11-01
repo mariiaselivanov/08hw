@@ -1,0 +1,152 @@
+@font-face{
+    font-family: 'FontA';
+    src:
+            /*url(fonts/fontawesome-webfont.ttf) format('truetype'),*/
+            url(fonts/FontAwesome.otf) format('otf'),
+            url(fonts/fontawesome-webfont.eot) format('embedded-opentype'),
+            url(fonts/fontawesome-webfont.svg) format('svg'),
+            url(fonts/fontawesome-webfont.woff) format('woff'),
+            url(fonts/fontawesome-webfont.woff2)format('woff2');
+}
+@font-face{
+    font-family: 'Symbol';
+    src:
+
+            url(fonts/fontawesome-webfont.woff2)format('woff2');
+}
+.body {
+    height: 100%;
+    min-height: 100px;
+    position: relative;
+    background: #fff;
+    font-size: 14px;
+    color: #5a5a5a;
+    z-index:1;
+    font-family: "Arial Black";
+}
+a {
+    text-decoration: none;
+    color: #958671;
+    font-family: "Arial Unicode MS";
+}
+.menu {
+    position: absolute;
+    right: 20px;
+    color: #958671;
+    list-style-type: none;
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 50px;
+}
+ul.menu li{
+    float: left;
+    color: #958671;
+    padding-left: 30px;
+    line-height: 27px;
+}
+
+.home{
+    color: rgb(229, 132, 21);
+}
+.lang {
+    font-size: 14px;
+    padding-left: 10px;
+}
+.fontawesome{
+    font-family: "FontA";
+}
+.fb {
+    padding-left: 0;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    padding: 0 5px;
+    box-sizing: border-box;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    background-color: white;
+    height: 30px;
+}
+.logo{
+    margin-left: -10px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.container {
+    position: relative;
+    top: 0px;
+    width: 1000px;
+    margin: auto;
+    margin-top: -20px;
+    box-sizing: border-box;
+    padding-left: 40px;
+    display: table;
+  /* background-color: blue;
+    height: 200px;*/
+    color: rgb(229, 132, 21);
+    font-weight: bold;
+
+
+}
+
+
+.menu2 {
+    position: relative;
+    top: -30px;
+    right: 20px;
+    margin-right: 50px;
+    color: #958671;
+    display: inline-block;
+    font-size: 15px;
+    font-style: italic;
+    font-family: "Philosopher";
+    height: 30px;
+    border-bottom: #000000;
+    border-bottom: solid;
+/*    background-color: darkgray; */
+    float: right;
+
+
+}
+
+.company{
+    color: rgb(229, 132, 21);
+}
+
+.company:hover {
+    background-color: #958671 ;
+
+}
+ul.submenu{
+    display: block;
+}
+/*.total {
+    float: left;
+    color: rgb(229, 132, 21);
+    border-bottom: #000000;
+    border-bottom: solid;
+    background-color: darkgray;
+    padding-left: 30px;
+    line-height: 27px;
+    height: 30px;
+    border-bottom: #000000;
+    border-bottom: solid;
+    display: inline-block;
+}
+*/
+ul.menu2 li {
+    position: relative;
+    float: left;
+    color: #958671;
+    padding-left: 30px;
+    line-height: 27px;
+    list-style-type: none;
+
+
+}
+.submenu1{
+    display: none;
+}
